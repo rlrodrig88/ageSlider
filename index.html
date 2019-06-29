@@ -9,21 +9,28 @@
   
 <body>
 
-  <H3>Enter Your Age</H3>
+  <div id="container">
+    <H3>Enter Your Age</H3>
 
-  <form action="app.js">
-    <label for="ageInput">Age: </label>
-    <input id="ageInput" type="number" />
-    <button type="submit">Submit</button>
-  </form>
+    <form id="myForm" name="myForm">
+      <label for="ageInput">Age: </label>
+      <input type="number" id="ageInput" name="ageInput"/>
+      <input type="submit"/>
+    </form>
   
-  <div id="sliderBackground">
-    <div id="slider">
+    <div id="sliderBackground">
+      <div id="slider">
+      </div>
+    </div></br>
+    <div id="labelLeft">
+      <p>0</p>
+    </div>
+    <div id="labelRight">
+      <p>100</p>
     </div>
   </div>
-
+    
 </body>
-
   
 <script src="app.js"></script>
   
