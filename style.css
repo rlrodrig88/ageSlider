@@ -1,0 +1,12 @@
+#sliderBackground {
+  margin: 1rem;
+  height: 5rem;
+  width: 50rem;
+  background: gray;
+}
+
+#slider {
+  height: 100%;
+  width: 25%;
+  background: green;
+}
