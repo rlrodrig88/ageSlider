@@ -4,18 +4,37 @@
   margin-right: auto;
 }
 
+form {
+  margin: 1em;
+}
+
+p {
+  margin: 0em;
+}
+
 #sliderBackground {
-  margin: 1rem;
-  height: 5rem;
+  height: 2rem;
   background: gray;
 }
 
 #slider {
   height: 100%;
-  width: 25%;
-  background: green;  
+  width: 0%;
+  background: green;
+  transition: 1s;
+}
+
+#labels {
+  display: flex;
 }
 
 #labelRight {
-  float: right;
+  margin-left: auto;
 }
+
+.error {
+  display: inline-block;
+  color: red;
+}
+
+
