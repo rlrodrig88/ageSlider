@@ -16,6 +16,7 @@ p {
 #sliderBackground {
   height: 2rem;
   background: gray;
+  border-radius: 5px;
 }
 
 #slider {
@@ -23,6 +24,7 @@ p {
   width: 0%;
   background: green;
   transition: 1s;
+  border-radius: 5px;
 }
 
 #labels {
